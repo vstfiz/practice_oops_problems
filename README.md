@@ -57,3 +57,26 @@ Solution : Abstraction is one of the key concepts of object-oriented programming
 
 Question-6 : What is Encapsulation?
 Solution : Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). It describes the idea of bundling data and methods that work on that data within one unit, e.g., a class in Java.
+
+Question-7:  What is the difference between Abstraction and Encapsulation?
+Solution : Both Abstraction and Encapsulation are two of the four basic OOP concepts which allow you to model real-world things into objects so that you can implement them in your program and code.Abstraction hides complexity by giving you a more abstract picture, a sort of 10,000 feet view, while Encapsulation hides internal working so that you can change it later. In other words, Abstraction hides details at the design level, while Encapsulation hides details at the implementation level.
+
+Question-8 : What is Polymorphism?
+Solution : The term polymorphism simply means ‘one function, multiple forms’. Polymorphism is achieved at both compile time and run time. The compile time polymorphism is achieved through “overloading” whereas, the run time polymorphism is achieved through “overriding”.The polymorphism allows the object to decide “which form of the function to be invoked when” at both, compile time and run time.
+
+Question-9 : What is Inheritance?
+Solution : Inheritance is one of the crucial features of OOP, which strongly support “reusability”. Reusability could be described as creating a new class by reusing the properties of the existing class. In inheritance, there is a base class, which is inherited by the derived class. When a class inherits any other class, the member(s) of the base class becomes the member(s) of a derived class.In Java, the class inherits the other class by using the keyword “extends”. In Java, the base class is referred as a super class, and derived class is referred as a subclass. A subclass can not access those members of the base class, which are declared as “private”.
+
+Question-10 : What is multiple inheritance?
+Solution : Multiple Inheritance is a feature of object oriented concept, where a class can inherit properties of more than one parent class. The problem occurs when there exist methods with same signature in both the super classes and subclass. On calling the method, the compiler cannot determine which class method to be called and even on calling which class method gets the priority. 
+
+Question-11 : What is the diamond problem in inheritance?
+Solution : The "diamond problem" (sometimes referred to as the "Deadly Diamond of Death") is an ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C? 
+![Example : ](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/220px-Diamond_inheritance.svg.png)
+
+
+
+
+
+
+
