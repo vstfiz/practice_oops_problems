@@ -85,6 +85,12 @@ Question-12 : Why Java does not support multiple inheritance?
 Solution : Java does not supports multiple inheritance because it creates a diamond problem.And it is described above.
 
 
+Question-13 : What is Static Binding and Dynamic Binding?
+ 
+Solution : 
+Static Binding: The binding which can be resolved at compile time by compiler is known as static or early binding. Binding of all the static, private and final methods is done at compile-time .Static binding is better performance wise (no extra overhead is required). Compiler knows that all such methods cannot be overridden and will always be accessed by object of local class. Hence compiler doesn’t have any difficulty to determine object of class (local class for sure).
+
+Dynamic Binding: In Dynamic binding compiler doesn’t decide the method to be called. Overriding is a perfect example of dynamic binding. In overriding both parent and child classes have same method .
 
 
 
