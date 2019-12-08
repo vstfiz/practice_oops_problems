@@ -1,5 +1,6 @@
 # practice_oops_problems
 Please un-comment the main methods for the Testing Code.
+And If this is helpfull , do follow me on Github.
 
 
 Answer To The Practise Viva Questions:
@@ -80,6 +81,7 @@ Question-11 : What is the diamond problem in inheritance?
 Solution : The "diamond problem" (sometimes referred to as the "Deadly Diamond of Death") is an ambiguity that arises when two classes B and C inherit from A, and class D inherits from both B and C. If there is a method in A that B and C have overridden, and D does not override it, then which version of the method does D inherit: that of B, or that of C? 
 ![Example : ](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Diamond_inheritance.svg/220px-Diamond_inheritance.svg.png)
 
+
 Question-12 : Why Java does not support multiple inheritance?
 
 Solution : Java does not supports multiple inheritance because it creates a diamond problem.And it is described above.
@@ -90,8 +92,20 @@ Question-13 : What is Static Binding and Dynamic Binding?
 Solution : 
 Static Binding: The binding which can be resolved at compile time by compiler is known as static or early binding. Binding of all the static, private and final methods is done at compile-time .Static binding is better performance wise (no extra overhead is required). Compiler knows that all such methods cannot be overridden and will always be accessed by object of local class. Hence compiler doesn’t have any difficulty to determine object of class (local class for sure).
 
-Dynamic Binding: In Dynamic binding compiler doesn’t decide the method to be called. Overriding is a perfect example of dynamic binding. In overriding both parent and child classes have same method .
+Dynamic Binding: In Dynamic binding compiler doesn’t decide the method to be called. Overriding is a perfect example of dynamic binding. In overriding both parent and child classes have same method.
 
+
+Question-14 : What is the meaning of “IS-A” and “HAS-A” relationship?
+
+Solution : 
+
+Is-A :
+
+In Java, an Is-A relationship depends on inheritance. Further inheritance is of two types, class inheritance and interface inheritance. It is used for code reusability in Java. For example, a Potato is a vegetable, a Bus is a vehicle, a Bulb is an electronic device and so on. One of the properties of inheritance is that inheritance is unidirectional in nature. Like we can say that a house is a building. But not all buildings are houses. We can easily determine an Is-A relationship in Java. When there is an extends or implement keyword in the class declaration in Java, then the specific class is said to be following the Is-A relationship.
+
+HAS-A :
+
+In Java, a Has-A relationship is also known as composition. It is also used for code reusability in Java. In Java, a Has-A relationship simply means that an instance of one class has a reference to an instance of another class or an other instance of the same class. For example, a car has an engine, a dog has a tail and so on. In Java, there is no such keyword that implements a Has-A relationship. But we mostly use new keywords to implement a Has-A relationship in Java.
 
 Question-15 : What is Association?
 
@@ -115,7 +129,11 @@ Solution : A dependency is a relationship between two or more objects in which a
 
 Question-19 :  What is the difference between Association and Dependency?
 
-Solution : 
+Solution : Association is reference based relationship between two classes. Here a class A holds a class level reference to class B. Association can be represented by a line between these classes with an arrow indicating the navigation direction. In case arrow is on the both sides, association has bidirectional navigation.
+![Example : ](https://nirajrules.files.wordpress.com/2011/07/association.png)
+
+Dependency is often confused as Association. Dependency is normally created when you receive a reference to a class as part of a particular operation / method. Dependency indicates that you may invoke one of the APIs of the received class reference and any modification to that class may break your class as well. Dependency is represented by a dashed arrow starting from the dependent class to its dependency. Multiplicity normally doesn’t make sense on a Dependency.
+![Example : ](https://nirajrules.files.wordpress.com/2011/07/dependency.png)
 
 
 Question-20 :  What is a class?
