@@ -93,4 +93,37 @@ Static Binding: The binding which can be resolved at compile time by compiler is
 Dynamic Binding: In Dynamic binding compiler doesn’t decide the method to be called. Overriding is a perfect example of dynamic binding. In overriding both parent and child classes have same method .
 
 
+Question-15 : What is Association?
+
+Solution : Association in Java is a connection or relation between two separate classes that are set up through their objects. Association relationship indicates how objects know each other and how they are using each other’s functionality. It can be one-to-one, one-to-many, many-to-one and many-to-many.
+
+
+Question-16 : What is Aggregation?
+
+Solution : Aggregation in Java is a relationship between two classes that is best described as a "has-a" and "whole/part" relationship. It is a more specialized version of the association relationship. The aggregate class contains a reference to another class and is said to have ownership of that class. Each class referenced is considered to be part-of the aggregate class.
+
+
+Question-17 : What is Composition?
+
+Solution : Composition is one of the fundamental concepts in object-oriented programming. It describes a class that references one or more objects of other classes in instance variables. This allows you to model a has-a association between objects.
+
+
+Question-18 : What is Dependency?
+
+Solution : A dependency is a relationship between two or more objects in which an object depends on the other object or objects for its implementation. If one of these objects change, the other object(s) can be impacted. The dependency relationship between two or more objects is depicted in UML using dashed arrows. In other words, when a dependency relationship exists between two or more objects, the object needs to know about the other object(s) which it depends on.
+
+
+Question-19 :  What is the difference between Association and Dependency?
+
+Solution : 
+
+
+Question-20 :  What is a class?
+
+Solution : A class is an entity that determines how an object will behave and what the object will contain. In other words, it is a blueprint or a set of instruction to build a specific type of object. 
+
+
+Question-21 :  What is an Object?
+
+Solution : An object is nothing but a self-contained component which consists of methods and properties to make a particular type of data useful. Object determines the behavior of the class. When you send a message to an object, you are asking the object to invoke or execute one of its methods. 
 
