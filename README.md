@@ -1,6 +1,7 @@
 # practice_oops_problems
 Please un-comment the main methods for the Testing Code.
 And If this is helpfull , do follow me on Github.
+Database Name for practise problems is practise and table names are in the code. 
 
 
 Answer To The Practise Viva Questions:
